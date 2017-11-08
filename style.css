@@ -6,9 +6,9 @@ body {
   line-height: 2;
 }
 
-p {
+/*p {
   text-align: center;
-}
+}*/
 
 h1, h2, h3 {
   color: blue;
@@ -24,12 +24,13 @@ ul {
 li {
   list-style-type: none;
   display: inline-flex;
-  text-align: center;
-}
+/*  text-align: center;
+*/}
 
 tr, td{
-  text-align: center;
-  padding: : 60px, auto;
+/*  text-align: center;
+*/  padding: 60px, auto;
+    margin: 60px, auto;
 }
 
 td.p {
@@ -57,5 +58,12 @@ div {
   border-radius: 4px;                         /* Small radius */
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
 
+.movies-images {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
 }
