@@ -1,0 +1,27 @@
+body {
+  background-color:#F7F7F7;
+  font-family: Arial, sans-serif;
+  color: green;
+  font-size: 25px;
+  line-height: 2;
+}
+
+p {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: blue;
+  font-family: Times, serif;
+  font-size: 26px;
+  line-height: 1,22;
+}
+
+a {
+  color: blue;
+  text-decoration: brown;
+}
+
+a:hover {
+  color: red;
+}
