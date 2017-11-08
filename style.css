@@ -1,7 +1,7 @@
 body {
   background-color:#F7F7F7;
   font-family: Arial, sans-serif;
-  color: green;
+  color: black;
   font-size: 25px;
   line-height: 2;
 }
@@ -17,6 +17,26 @@ h1, h2, h3 {
   line-height: 1,22;
 }
 
+ul {
+  style="margin-left: -25px;"
+}
+
+li {
+  list-style-type: none;
+  display: inline-flex;
+  text-align: center;
+}
+
+tr, td{
+  text-align: center;
+  padding: : 60px, auto;
+}
+
+td.p {
+  margin: 20px;
+  padding-top: 20px;
+}
+
 a {
   color: blue;
   text-decoration: brown;
@@ -24,4 +44,18 @@ a {
 
 a:hover {
   color: red;
+}
+
+div {
+  text-align: center;
+  border-top: 1px solid red;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 50px;
+  background: white;                          /* White background */
+  /*padding: 30px;   */                           /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+
 }
